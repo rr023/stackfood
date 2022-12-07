@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 ThemeData light = ThemeData(
   fontFamily: 'Roboto',
-  primaryColor: Color(0xFF045014),
+  primaryColor: Color(0xFFEF7822),
   secondaryHeaderColor: Color(0xFF1ED7AA),
   disabledColor: Color(0xFFBABFC4),
   backgroundColor: Color(0xFFF3F3F3),
@@ -10,7 +10,6 @@ ThemeData light = ThemeData(
   brightness: Brightness.light,
   hintColor: Color(0xFF9F9F9F),
   cardColor: Colors.white,
-  colorScheme: ColorScheme.light(primary: Color(0xFF045014), secondary: Color(0xFFEF7822)),
-  textButtonTheme: TextButtonThemeData(style: TextButton.styleFrom(foregroundColor: Color(
-      0xFF045014))),
+  colorScheme: ColorScheme.light(primary: Color(0xFFEF7822), secondary: Color(0xFFEF7822)),
+  textButtonTheme: TextButtonThemeData(style: TextButton.styleFrom(foregroundColor: Color(0xFFEF7822))),
 );
